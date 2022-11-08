@@ -45,7 +45,7 @@ Once logged in, Selenium navigates to the "Web Time Sheet Read Only" page and th
   <img src="https://user-images.githubusercontent.com/95936691/200427712-a0613db5-0dbb-406b-a8db-78eca0a47a8e.png" />
 </p>
 
-The script then runs through each of the table's entries and enters in the date, selects the type of punch (IN DAY, OUT LUNCH, IN LUNCH, OUT DAY) and enters in the punch time. 
+The script then runs through each of the table's entries and enters in the date, selects the type of punch (IN DAY, OUT LUNCH, IN LUNCH, OUT DAY) and enters in the punch time. Before this, I had to manually enter all of this information and obviously the last thing I'd want to do on a Friday evening is spend 10 minutes punching in my time. 
 
 ```Python
         for index, row in df.iterrows():
